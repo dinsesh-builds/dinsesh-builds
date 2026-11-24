@@ -1,25 +1,28 @@
 # dinsesh-builds
 
-Small tools for study, accessibility, and personal tracking. Most of this work is local first: your data stays on your device unless you export it.
+Local first tools for study, accessibility and focus. Everything here runs on your machine, with no account and no upload step.
 
 ## Projects
 
-| Project | What it does | Stack |
+| Project | What it does | Try it |
 | --- | --- | --- |
-| [asl-sign-language](https://github.com/dinsesh-builds/asl-sign-language) | Reads 36 ASL signs (A to Z, 0 to 9) from a webcam, in Python or in the browser | MediaPipe, SVM, ONNX |
-| [RegainPlus](https://github.com/dinsesh-builds/RegainPlus) | Offline Android app for focus, study, gym, and mood tracking, with an early iOS build | Kotlin, Compose, SwiftUI |
-| [exam-reminder-ai](https://github.com/dinsesh-builds/exam-reminder-ai) | Turns notes into practice questions and a revision schedule, no API key needed for the local path | FastAPI, Python, HTML |
+| [asl-sign-language](https://github.com/dinsesh-builds/asl-sign-language) | Reads 36 ASL fingerspelling signs from a webcam in Python or the browser. MediaPipe landmarks, an SVM and ONNX. | [Live browser demo](https://dinsesh-builds.github.io/asl-sign-language/) |
+| [exam-reminder-ai](https://github.com/dinsesh-builds/exam-reminder-ai) | Turns PDFs, images and notes into practice questions and a revision schedule. No API key needed. | Runs locally, see the README |
+| [RegainPlus](https://github.com/dinsesh-builds/RegainPlus) | Offline Android app for focus, study, gym and mood tracking. In active development. | Source and APKs in repo |
 
-## How I work
+## How I build
 
-- Local first. No account or cloud sync is needed for the Android app or the sign recognizer.
-- Working demos over diagrams. Browser projects get a live page.
-- READMEs state setup, limits, and the command that reproduces the result.
+- Local first. Camera frames and study notes stay on the device.
+- A working demo over a description. The sign recogniser has a live page.
+- Honest limits in every README. The recogniser is fingerspelling practice, not an interpreter, and the question generator produces drafts to review.
+- Small dependencies, deterministic output and readable code.
 
-## Latest activity
+## Current focus
 
-The [repository list](https://github.com/dinsesh-builds?tab=repositories) shows what changed most recently.
+The ASL demo and the study tool are the two finished projects. RegainPlus is the longer running build. Recent changes are visible in each repository's commit history and changelog.
 
-## About this account
+## Working with me
 
-Kept under a handle on purpose. No real name, email address, or personal links are published here.
+Issues and patches are welcome. Both finished projects have a contributing guide, a changelog and issue templates. Open an issue before a large change.
+
+This account is kept under a handle on purpose. No real name, email or personal links are published here.
