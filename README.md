@@ -2,6 +2,11 @@
 
 Local first tools for study, accessibility and focus. Everything here runs on your machine, with no account and no upload step.
 
+## Tools
+
+- [SplitGuard](https://github.com/dinsesh-builds/splitguard) finds near duplicates across a train/test split.
+- [PrivacyLint](https://github.com/dinsesh-builds/privacylint) scans a folder for leaked secrets and old commit emails without printing them.
+
 ## Projects
 
 | Project | What it does | Try it |
