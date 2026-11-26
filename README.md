@@ -6,6 +6,7 @@ Local first tools for study, accessibility and focus. Everything here runs on yo
 
 - [SplitGuard](https://github.com/dinsesh-builds/splitguard) finds near duplicates across a train/test split.
 - [PrivacyLint](https://github.com/dinsesh-builds/privacylint) scans a folder for leaked secrets and old commit emails without printing them.
+- [RepoHealth](https://github.com/dinsesh-builds/repohealth) checks a public repo against fourteen discovery and community items.
 
 ## Projects
 
